@@ -10,8 +10,8 @@ export let hotels: hotel[] = [
     "tel": "(895) 413-3468",
     "temp": 25,
     "waterTemp": 18,
-    "imgPrimary": "assets/images/p1.jpeg",
-    "gallery": ["assets/images/1-2.jpeg", "assets/images/1-1.jpeg",],
+    "imgPrimary": "assets/images/p1.jpg",
+    "gallery": ["assets/images/1-2.jpg", "assets/images/1-1.jpg",],
     "stars": '4',
     "followers": 345,
     "following": 632
@@ -27,8 +27,8 @@ export let hotels: hotel[] = [
     "tel": "(899) 452-2364",
     "temp": 22,
     "waterTemp": 16,
-    "imgPrimary": "assets/images/p2.jpeg",
-    "gallery": ["assets/images/2-1.jpeg", "assets/images/2-2.jpeg",],
+    "imgPrimary": "assets/images/p2.jpg",
+    "gallery": ["assets/images/2-1.jpg", "assets/images/2-2.jpg",],
     "stars": '3',
     "followers": 234,
     "following": 732
@@ -44,8 +44,8 @@ export let hotels: hotel[] = [
     "tel": "(919) 597-3290",
     "temp": 18,
     "waterTemp": 14,
-    "imgPrimary": "assets/images/p3.jpeg",
-    "gallery": ["assets/images/3-1.jpeg", "assets/images/3-2.jpeg",],
+    "imgPrimary": "assets/images/p3.jpg",
+    "gallery": ["assets/images/3-1.jpg", "assets/images/3-2.jpg",],
     "stars": '5',
     "followers": 345,
     "following": 123
