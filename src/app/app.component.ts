@@ -13,7 +13,9 @@ export class AppComponent {
 	public starsQty: string;
 	constructor(){}
 	public selectedHotel: hotel = this.hotels[0];
-	public onSelect(index: number): void {
-		this.selectedHotel = this.hotels[index];
+	public onSelect(id: number): void {
+		this.selectedHotel = this.hotels.find(hotel=>{
+			return hotel.id === id;
+		});
 	}
 }

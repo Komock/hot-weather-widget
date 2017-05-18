@@ -1,4 +1,5 @@
 <div class="element-left">
+
 	<div class="element-bg-img">
 		<img [src]="selectedHotel.imgPrimary">
 	</div>
@@ -15,9 +16,9 @@
 			<span class="line"> </span>
 			<div class="activity_box">
 				<div class="scrollbar" id="style-2">
-					<div class="activity-row" *ngFor="let hotel of hotels | filterByStars:starsQty ; index as i">
+					<div class="activity-row" *ngFor="let hotel of hotels | filterByStars:starsQty">
 						<div class="activity-desc">
-							<a href="#" (click)="selectHotel($event ,i)">
+							<a href="#" (click)="selectHotel($event)" [attr.data-id]="hotel.id">
 								<h5>{{hotel.name}}</h5>
 								<p>{{hotel.address.city}}, {{hotel.address.street}}</p>
 								<h6>Tel: {{hotel.tel}}</h6>

@@ -20,9 +20,10 @@ export class ElementLeftComponent {
 
   public starsQty: string;
 
-  public selectHotel(e: MouseEvent, index: number): void {
+  public selectHotel(e: any): void {
   	e.preventDefault();
-  	this.onSelect.emit(index);
+    let id = Number(e.currentTarget.dataset.id);
+  	this.onSelect.emit(id);
   }
 
   @Output()

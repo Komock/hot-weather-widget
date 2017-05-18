@@ -1,4 +1,5 @@
 type hotel = {
+	id: number;
 	name: string;
 	address: {
 		city: string;
