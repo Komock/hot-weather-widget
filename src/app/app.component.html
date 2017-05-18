@@ -1,0 +1,10 @@
+<h1>
+  {{title}}
+</h1>
+<div class="element">
+	<app-element-left [hotels]="hotels" [stars]="stars" [(selectedHotel)]="selectedHotel" (onSelect)="onSelect($event)"></app-element-left>
+	<div class="element-right">
+		<app-temperatur [selectedHotel]="selectedHotel"></app-temperatur>
+		<app-teddy-bear [selectedHotel]="selectedHotel"></app-teddy-bear>
+	</div>
+</div>

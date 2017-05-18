@@ -1,0 +1,17 @@
+ul li.active a {
+	color: #444;
+}
+.activity-img img {
+	max-width: 50px;
+	margin-right: 3px;
+}
+
+.ele-strip li a:after {
+	display: inline-block;
+	content: '*';
+}
+
+.ele-strip li:first-child a:after {
+	display: none;
+	content: '';
+}
